@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Qin</string>
+
+    <array name="student_list">
+
+        <item>Abhigyan Sharma</item>
+        <item>Abhishek Jain</item>
+        <item>Abhishek Kataria</item>
+        <item>Abhishek Rawat</item>
+        <item>Amit Kushwaha</item>
+        <item>Amit Shukla</item>
+        <item>Amulya Kumari</item>
+        <item>Ankit Bohra</item>
+        <item>Anshul Singh Tomar</item>
+        <item>Anuj Shrivastava</item>
+        <item>Arti Kumari</item>
+        <item>Arti Singh</item>
+        <item>Ashi Saxena</item>
+        <item>Bhanu Pratap Singh Lodhi</item>
+        <item>Deepak Choudhary</item>
+        <item>Deepak Dutt Mishra</item>
+        <item>Deepak Joshi</item>
+        <item>Deepak Kumar</item>
+        <item>Divyanshu Nauni</item>
+        <item>Harsh Shrivastava</item>
+        <item>Himanshu Bhatt</item>
+        <item>Jitender Joshi</item>
+        <item>Jyoti Sharma</item>
+        <item>Karishma Das</item>
+        <item>Kirandeep Kaur</item>
+        <item>Lakshay Tyagi</item>
+        <item>Madhusudan Dandotiya</item>
+        <item>Manish Jain</item>
+        <item>Manish Kumar</item>
+        <item>Manish Kumar</item>
+        <item>Mayank Soni</item>
+        <item>Md Bilal</item>
+        <item>Mohit Kumar</item>
+        <item>Muktasha Mithora</item>
+        <item>Neha Kumari</item>
+        <item>Nikita Tomar</item>
+        <item>Pooja Binwal</item>
+        <item>Pragalbha Puriya</item>
+        <item>Prajwal Jareniya</item>
+        <item>Prashant Pathak</item>
+        <item>Prem Sagar</item>
+        <item>Prerana Jain</item>
+        <item>Rahul Kumar</item>
+        <item>Rovin Barya</item>
+        <item>Saket Saurabh</item>
+        <item>Saksham Kumar Singh</item>
+        <item>Sanjay Kumar</item>
+        <item>Saurabh Chaurasiya</item>
+        <item>Saurabh Chaurasiya</item>
+        <item>Shivam Nayak</item>
+        <item>Shivangi Jain</item>
+        <item>Shubham Kumar Ojha</item>
+        <item>Shubham Shekhawat</item>
+        <item>Shubham Singh Rajawat</item>
+        <item>Stuti Singhal</item>
+        <item>Surya Bhushan</item>
+        <item>Suyash Shukla</item>
+        <item>Swapnil Bhilwar</item>
+        <item>Vaibhav Choudhary</item>
+        <item>Vijay Kumar Yadav</item>
+        <item>Vir Vikram Singh</item>
+        <item>Vishwajeet Singh Kushwah</item>
+        <item>Yash Pathik</item>
+        <item>Yograj Singh Rajput</item>
+
+
+    </array>
+
+    <array name="subject_list">
+        <item>All : Overall</item>
+        <item>CS6001 : PPL</item>
+        <item>CS6002 : SEPM</item>
+        <item>CS6003 : ACA</item>
+        <item>CS6004 : CN</item>
+        <item>CS6005 : IPR</item>
+        <item>CS6006 : MP</item>
+        <item>CS6007 : CED</item>
+        <item>CS6008 : Self Study</item>
+
+
+    </array>
+</resources>

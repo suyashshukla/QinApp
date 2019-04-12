@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/form_branch"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="COMPUTER SCIENCE BRANCH"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/form_semester"
+        android:text="VI SEMESTER"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/form_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<Spinner
+    android:id="@+id/form_subject"
+    android:layout_margin="5dp"
+    android:layout_below="@id/form_semester"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/form_subject_name"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/form_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/form_fetch"
+        android:background="@drawable/curve_button"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:text="FETCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/form_ptage_bar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:progress="0"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/form_ptage"
+        android:visibility="visible"
+        android:layout_margin="5dp"
+        android:textSize="36sp"
+        android:layout_below="@id/form_subject_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
